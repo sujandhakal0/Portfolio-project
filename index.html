@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sujan Dhakal | Full-Stack & AI/ML Developer</title>
+  <meta name="description" content="Portfolio of Sujan Dhakal – Full-stack MERN developer transitioning into Data AI/ML. Based in Kathmandu, Nepal." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NOISE OVERLAY -->
+  <div class="noise"></div>
+
+  <!-- SCANLINES -->
+  <div class="scanlines"></div>
+
+  <!-- CURSOR GLOW -->
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <!-- ======= NAVBAR ======= -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">
+      <span class="bracket">[</span>
+      <span class="logo-text">SD</span>
+      <span class="bracket">]</span>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about" class="nav-link"><span class="nav-num">01.</span>about</a></li>
+      <li><a href="#skills" class="nav-link"><span class="nav-num">02.</span>skills</a></li>
+      <li><a href="#projects" class="nav-link"><span class="nav-num">03.</span>projects</a></li>
+      <li><a href="#experience" class="nav-link"><span class="nav-num">04.</span>experience</a></li>
+      <li><a href="#contact" class="nav-link"><span class="nav-num">05.</span>contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- ======= HERO ======= -->
+  <section class="hero" id="hero">
+    <div class="hero-grid-bg"></div>
+    <div class="hero-content">
+      <div class="terminal-header">
+        <span class="terminal-dot red"></span>
+        <span class="terminal-dot yellow"></span>
+        <span class="terminal-dot green"></span>
+        <span class="terminal-title">~/portfolio — bash</span>
+      </div>
+      <div class="terminal-body">
+        <p class="terminal-line"><span class="prompt">$</span> <span class="cmd">whoami</span></p>
+        <h1 class="hero-name">Sujan<span class="accent"> Dhakal</span></h1>
+        <p class="terminal-line mt-sm"><span class="prompt">$</span> <span class="cmd">cat role.txt</span></p>
+        <p class="hero-role"><span class="typed" id="typedText"></span><span class="cursor-blink">_</span></p>
+        <p class="terminal-line mt-sm"><span class="prompt">$</span> <span class="cmd">cat location.txt</span></p>
+        <p class="hero-location"><span class="tag-bracket">&lt;</span>Kathmandu, Nepal<span class="tag-bracket">&gt;</span></p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">./view-projects</a>
+          <a href="#contact" class="btn btn-outline">./say-hello</a>
+          <a href="https://github.com/sujandhakal0" target="_blank" rel="noopener" class="btn btn-ghost">github↗</a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-stats">
+      <div class="stat-box">
+        <span class="stat-num">3+</span>
+        <span class="stat-label">Projects</span>
+      </div>
+      <div class="stat-box">
+        <span class="stat-num">2+</span>
+        <span class="stat-label">Years Learning</span>
+      </div>
+      <div class="stat-box">
+        <span class="stat-num">5+</span>
+        <span class="stat-label">Certs</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= ABOUT ======= -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-num">01</span>
+        <h2 class="section-title">About</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <div class="code-block">
+            <div class="code-block-header">
+              <span class="file-tag">about.json</span>
+            </div>
+            <div class="code-block-body">
+              <pre>{
+  <span class="json-key">"name"</span>: <span class="json-str">"Sujan Dhakal"</span>,
+  <span class="json-key">"role"</span>: <span class="json-str">"Full-Stack MERN → AI/ML"</span>,
+  <span class="json-key">"location"</span>: <span class="json-str">"Kathmandu, Nepal"</span>,
+  <span class="json-key">"degree"</span>: <span class="json-str">"BCA @ UCITM (2024–2028)"</span>,
+  <span class="json-key">"focus"</span>: [
+    <span class="json-str">"Data Engineering"</span>,
+    <span class="json-str">"AI/ML"</span>,
+    <span class="json-str">"Web Development"</span>
+  ],
+  <span class="json-key">"status"</span>: <span class="json-str">"Open to Opportunities ✓"</span>
+}</pre>
+            </div>
+          </div>
+        </div>
+        <div class="about-desc">
+          <p class="about-p">Full-stack MERN developer <span class="highlight">transitioning into Data AI/ML</span>, with hands-on experience building data-driven web applications and backend systems.</p>
+          <p class="about-p">Currently strengthening foundations in data engineering. Motivated to deepen AI/ML expertise through the <span class="highlight">Fusemachines AI Fellowship</span> and contribute to real-world AI solutions.</p>
+          <div class="edu-cards">
+            <div class="edu-card">
+              <span class="edu-icon">🎓</span>
+              <div>
+                <p class="edu-title">Bachelor of Computer Application</p>
+                <p class="edu-sub">Universal College of IT & Management · 2024–2028</p>
+              </div>
+            </div>
+            <div class="edu-card">
+              <span class="edu-icon">📘</span>
+              <div>
+                <p class="edu-title">Higher Secondary – Science/CS</p>
+                <p class="edu-sub">St. Lawrence College · GPA: 2.94 · 2021–2023</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= SKILLS ======= -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-num">02</span>
+        <h2 class="section-title">Skills</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="skills-grid">
+
+        <div class="skill-category">
+          <div class="skill-cat-header">
+            <span class="cat-icon">⚙</span>
+            <span class="cat-name">Languages & Math</span>
+          </div>
+          <div class="skill-tags">
+            <span class="tag">Python</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">SQL</span>
+            <span class="tag">Linear Algebra</span>
+            <span class="tag">Probability & Stats</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-header">
+            <span class="cat-icon">🤖</span>
+            <span class="cat-name">AI / Data Engineering</span>
+          </div>
+          <div class="skill-tags">
+            <span class="tag tag-ai">Docker</span>
+            <span class="tag tag-ai">Terraform</span>
+            <span class="tag tag-ai">Kestra</span>
+            <span class="tag tag-ai">BigQuery</span>
+            <span class="tag tag-ai">Data Warehousing</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-header">
+            <span class="cat-icon">🖥</span>
+            <span class="cat-name">Frontend</span>
+          </div>
+          <div class="skill-tags">
+            <span class="tag tag-fe">React.js</span>
+            <span class="tag tag-fe">Redux Toolkit</span>
+            <span class="tag tag-fe">Framer Motion</span>
+            <span class="tag tag-fe">Tailwind CSS</span>
+            <span class="tag tag-fe">HTML5</span>
+            <span class="tag tag-fe">CSS3</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-header">
+            <span class="cat-icon">🔧</span>
+            <span class="cat-name">Backend</span>
+          </div>
+          <div class="skill-tags">
+            <span class="tag tag-be">Node.js</span>
+            <span class="tag tag-be">Express.js</span>
+            <span class="tag tag-be">REST APIs</span>
+            <span class="tag tag-be">JWT</span>
+            <span class="tag tag-be">Bcrypt</span>
+            <span class="tag tag-be">Multer</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-header">
+            <span class="cat-icon">🗄</span>
+            <span class="cat-name">Databases</span>
+          </div>
+          <div class="skill-tags">
+            <span class="tag tag-db">MongoDB</span>
+            <span class="tag tag-db">PostgreSQL</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-header">
+            <span class="cat-icon">🛠</span>
+            <span class="cat-name">Tools</span>
+          </div>
+          <div class="skill-tags">
+            <span class="tag">Git</span>
+            <span class="tag">GitHub</span>
+            <span class="tag">Postman</span>
+            <span class="tag">VS Code</span>
+            <span class="tag">Obsidian</span>
+            <span class="tag">Linux</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= PROJECTS ======= -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-num">03</span>
+        <h2 class="section-title">Projects</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="projects-grid">
+
+        <div class="project-card" data-index="01">
+          <div class="project-card-top">
+            <span class="project-icon">◈</span>
+            <div class="project-links">
+              <a href="https://sujandhakal11.com.np" target="_blank" rel="noopener" class="icon-link" title="Live Site">↗</a>
+              <a href="https://github.com/sujandhakal0" target="_blank" rel="noopener" class="icon-link" title="GitHub">⌥</a>
+            </div>
+          </div>
+          <h3 class="project-title">Personal Portfolio Website</h3>
+          <p class="project-stack">MERN Stack</p>
+          <p class="project-desc">Full-stack portfolio with an admin dashboard for managing and updating content dynamically. Features structured backend data handling, responsive UI, and theme switching.</p>
+          <div class="project-tags">
+            <span class="ptag">React</span>
+            <span class="ptag">Node.js</span>
+            <span class="ptag">MongoDB</span>
+            <span class="ptag">Express</span>
+          </div>
+        </div>
+
+        <div class="project-card featured" data-index="02">
+          <div class="project-card-top">
+            <span class="project-icon">◈</span>
+            <div class="project-links">
+              <a href="https://codepen-eta.vercel.app" target="_blank" rel="noopener" class="icon-link" title="Live Site">↗</a>
+              <a href="https://github.com/sujandhakal0" target="_blank" rel="noopener" class="icon-link" title="GitHub">⌥</a>
+            </div>
+          </div>
+          <div class="featured-badge">Featured</div>
+          <h3 class="project-title">CodePen Clone</h3>
+          <p class="project-stack">MERN Stack</p>
+          <p class="project-desc">Browser-based code editor with user authentication and secure session handling using JWT. Features REST APIs for storing, retrieving, and managing user-generated code snippets.</p>
+          <div class="project-tags">
+            <span class="ptag">React</span>
+            <span class="ptag">Node.js</span>
+            <span class="ptag">JWT</span>
+            <span class="ptag">MongoDB</span>
+            <span class="ptag">REST API</span>
+          </div>
+        </div>
+
+        <div class="project-card" data-index="03">
+          <div class="project-card-top">
+            <span class="project-icon">◈</span>
+            <div class="project-links">
+              <a href="https://github.com/sujandhakal0" target="_blank" rel="noopener" class="icon-link" title="GitHub">⌥</a>
+            </div>
+          </div>
+          <h3 class="project-title">E-Commerce Filtering System</h3>
+          <p class="project-stack">React.js</p>
+          <p class="project-desc">Multi-criteria product filtering with Redux Toolkit for efficient client-side state. Dynamic UI components for real-time data rendering and responsive interaction across device sizes.</p>
+          <div class="project-tags">
+            <span class="ptag">React</span>
+            <span class="ptag">Redux Toolkit</span>
+            <span class="ptag">CSS3</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= EXPERIENCE ======= -->
+  <section class="section section-alt" id="experience">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-num">04</span>
+        <h2 class="section-title">Experience</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <!-- Timeline -->
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="tl-top">
+              <h3 class="tl-role">College Representative</h3>
+              <span class="tl-date">Feb 2025 – Present</span>
+            </div>
+            <p class="tl-org">Code for Change · Kathmandu, Nepal</p>
+            <p class="tl-desc">Represent the organization at the college level, driving participation in tech and community initiatives.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="tl-top">
+              <h3 class="tl-role">Full-Stack Web Developer</h3>
+              <span class="tl-date">2025 – Present</span>
+            </div>
+            <p class="tl-org">Phoenix IT Club · Kathmandu, Nepal</p>
+            <p class="tl-desc">Developing the club's official website — currently focused on frontend, building responsive UI components and collaborating on design and technical decisions.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="tl-top">
+              <h3 class="tl-role">Organizer</h3>
+              <span class="tl-date">2025</span>
+            </div>
+            <p class="tl-org">CodeFest 2025 Hackathon · Kathmandu, Nepal</p>
+            <p class="tl-desc">Managed event logistics, presentation scheduling, and coordinated team operations during the hackathon.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="tl-top">
+              <h3 class="tl-role">Volunteer</h3>
+              <span class="tl-date">2025</span>
+            </div>
+            <p class="tl-org">AWS Community Day Nepal · Kathmandu, Nepal</p>
+            <p class="tl-desc">Assisted with session management and on-ground operations for one of Nepal's largest cloud computing events.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Certifications -->
+      <div class="certs-section">
+        <h3 class="certs-title">// certifications</h3>
+        <div class="certs-grid">
+          <div class="cert-card">
+            <span class="cert-issuer">Harvard University (edX)</span>
+            <h4 class="cert-name">CS50x – Introduction to Computer Science</h4>
+            <p class="cert-detail">C, Python, SQL, Data Structures · 10 PSets + Final Project</p>
+            <span class="cert-date">Jan – Mar 2024</span>
+          </div>
+          <div class="cert-card">
+            <span class="cert-issuer">Mindrisers Institute</span>
+            <h4 class="cert-name">MERN Stack Development</h4>
+            <p class="cert-detail">MongoDB, Express, React, Node.js</p>
+            <span class="cert-date">Apr – Jul 2024</span>
+          </div>
+          <div class="cert-card">
+            <span class="cert-issuer">DataTalksClub</span>
+            <h4 class="cert-name">Data Engineering Zoomcamp</h4>
+            <p class="cert-detail">Docker, Terraform, Kestra, BigQuery</p>
+            <span class="cert-date">2025 – Present</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ======= CONTACT ======= -->
+  <section class="section" id="contact">
+    <div class="container contact-container">
+      <div class="section-header">
+        <span class="section-num">05</span>
+        <h2 class="section-title">Contact</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="contact-inner">
+        <div class="contact-terminal">
+          <div class="code-block-header">
+            <span class="file-tag">contact.sh</span>
+          </div>
+          <div class="contact-body">
+            <p class="ct-line"><span class="prompt">$</span> echo <span class="json-str">"Let's build something together"</span></p>
+            <p class="ct-output">Let's build something together</p>
+            <div class="ct-links">
+              <a href="mailto:dhakalsujan629@gmail.com" class="ct-link">
+                <span class="ct-link-icon">✉</span>
+                <span>dhakalsujan629@gmail.com</span>
+              </a>
+              <a href="tel:+9779765414278" class="ct-link">
+                <span class="ct-link-icon">☎</span>
+                <span>+977 9765414278</span>
+              </a>
+              <a href="https://github.com/sujandhakal0" target="_blank" rel="noopener" class="ct-link">
+                <span class="ct-link-icon">⌥</span>
+                <span>github.com/sujandhakal0</span>
+              </a>
+              <a href="https://linkedin.com/in/sujandhakal0" target="_blank" rel="noopener" class="ct-link">
+                <span class="ct-link-icon">◈</span>
+                <span>linkedin.com/in/sujandhakal0</span>
+              </a>
+            </div>
+            <p class="ct-line mt-md"><span class="prompt">$</span> <span class="cursor-blink">_</span></p>
+          </div>
+        </div>
+        <p class="contact-cta">Currently open to freelance projects, internships, and collaboration opportunities.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= FOOTER ======= -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <span class="footer-logo"><span class="bracket">[</span>SD<span class="bracket">]</span></span>
+      <span class="footer-copy">Designed & Built by Sujan Dhakal · <span id="year"></span></span>
+      <div class="footer-socials">
+        <a href="https://github.com/sujandhakal0" target="_blank" rel="noopener">GH</a>
+        <a href="https://linkedin.com/in/sujandhakal0" target="_blank" rel="noopener">LI</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
